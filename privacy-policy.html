@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Chính sách quyền riêng tư - Auto Tải XML Hóa đơn điện tử</title>
+<style>
+  body { font-family: "Segoe UI", sans-serif; line-height: 1.6; margin: 40px; color: #333; max-width: 800px; }
+  h1, h2 { color: #1677ff; }
+  p { margin-bottom: 10px; }
+</style>
+</head>
+<body>
+  <h1>Chính sách quyền riêng tư</h1>
+  <p><strong>Cập nhật lần cuối:</strong> 03/11/2025</p>
+
+  <h2>1. Giới thiệu</h2>
+  <p>Tiện ích <strong>Auto Tải XML Hóa đơn điện tử</strong> được thiết kế để giúp người dùng tự động tải các tệp XML hóa đơn điện tử từ trang web <a href="https://hoadondientu.gdt.gov.vn" target="_blank">hoadondientu.gdt.gov.vn</a> của Tổng cục Thuế Việt Nam. Tiện ích này hoạt động hoàn toàn trên trình duyệt của người dùng và không thu thập bất kỳ dữ liệu cá nhân nào.</p>
+
+  <h2>2. Dữ liệu được thu thập</h2>
+  <p>Tiện ích <strong>không thu thập, lưu trữ hoặc gửi bất kỳ dữ liệu cá nhân nào</strong> của người dùng đến máy chủ bên ngoài.  
+  Mọi dữ liệu (ví dụ: tiến độ tải, trạng thái hoạt động, thư mục lưu file) chỉ được lưu trữ tạm thời trong trình duyệt người dùng thông qua API <code>chrome.storage.local</code>.</p>
+
+  <h2>3. Quyền được yêu cầu</h2>
+  <ul>
+    <li><strong>storage</strong>: Lưu cục bộ tiến trình tải và cấu hình người dùng.</li>
+    <li><strong>activeTab, scripting, tabs</strong>: Tự động thao tác với tab hóa đơn hiện tại theo yêu cầu người dùng.</li>
+    <li><strong>downloads</strong>: Tải file XML về thiết bị của người dùng.</li>
+    <li><strong>notifications</strong>: Hiển thị thông báo hoàn tất hoặc lỗi khi tải hóa đơn.</li>
+    <li><strong>host_permissions</strong>: Giới hạn chỉ hoạt động trong miền <code>https://hoadondientu.gdt.gov.vn/</code>.</li>
+  </ul>
+
+  <h2>4. Bên thứ ba</h2>
+  <p>Tiện ích không chia sẻ, không bán, và không truyền bất kỳ dữ liệu người dùng nào đến bên thứ ba.  
+  Việc gọi đến dịch vụ <strong>Google Apps Script</strong> chỉ dùng để xác thực License Key, không bao gồm bất kỳ thông tin cá nhân hay dữ liệu hóa đơn.</p>
+
+  <h2>5. Bảo mật</h2>
+  <p>Tất cả hoạt động đều diễn ra cục bộ trên trình duyệt. Tiện ích không có máy chủ trung gian và không yêu cầu người dùng đăng nhập.</p>
+
+  <h2>6. Liên hệ</h2>
+  <p>Nếu bạn có bất kỳ câu hỏi nào liên quan đến chính sách này, vui lòng liên hệ qua email:  
+  📧 <strong>datquoc.dev@gmail.com</strong></p>
+
+  <h2>7. Cập nhật</h2>
+  <p>Chính sách này có thể được cập nhật định kỳ để phù hợp với yêu cầu của Chrome Web Store.  
+  Mọi thay đổi quan trọng sẽ được công bố tại trang này.</p>
+
+  <hr>
+  <p style="font-size: 12px; color: #666;">© 2025 Auto Tải XML Hóa đơn điện tử. All rights reserved.</p>
+</body>
+</html>
